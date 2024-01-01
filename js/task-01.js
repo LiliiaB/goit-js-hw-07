@@ -7,8 +7,15 @@
 
 const categories = document.querySelectorAll(".item");
 let total = 0;
-const result = categories.forEach((category) => {
-  return (total += category);
+categories.forEach(() => {
+  return total++;
 });
+console.log(`Number of categories: ${total}`);
 
-console.log(`Number of categories: ${result}`);
+const liItem = document.querySelectorAll("li.item");
+liItem.forEach((el) => {
+  const header = el.querySelector("h2");
+  console.log(`Category: ${header.textContent}`);
+  const li = el.querySelectorAll("ul li");
+  console.log(`Elements: ${li.length}`);
+});
