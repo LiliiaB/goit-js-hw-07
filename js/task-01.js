@@ -5,6 +5,7 @@
 const categories = document.querySelectorAll("#categories");
 const result = categories.forEach((category) => {
   let total = 0;
-  return (total += category);
-});
+  total += category;
+} return total);
+
 console.log(`Number of categories: ${result}`);
