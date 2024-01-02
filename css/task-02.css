@@ -1,4 +1,4 @@
-ul {
+.gallery {
   display: flex;
   flex-direction: row;
   gap: 24px 48px;
