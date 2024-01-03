@@ -17,6 +17,7 @@ input {
   line-height: 1.5;
   letter-spacing: 0.04em;
   width: 150px;
+  text-align: center;
 }
 button {
   border-radius: 8px;
