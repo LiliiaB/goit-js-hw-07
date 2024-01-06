@@ -6,6 +6,7 @@
   border-radius: 8px;
   background: #f6f6fe;
   max-width: 486px;
+  margin-bottom: 16px;
 }
 input {
   border-radius: 8px;
@@ -45,4 +46,13 @@ button:hover {
 
 button:hover:last-child {
   background: #ff7070;
+}
+
+#boxes {
+  background: #f6f6fe;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  color: black;
 }
