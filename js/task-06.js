@@ -44,4 +44,5 @@ function createBoxes(amount) {
 function destroyBoxes() {
   amount = 0;
   myDiv.innerHTML = "";
+  myInput.value = "";
 }
