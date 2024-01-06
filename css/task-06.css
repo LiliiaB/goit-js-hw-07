@@ -54,5 +54,4 @@ button:hover:last-child {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  color: black;
 }
