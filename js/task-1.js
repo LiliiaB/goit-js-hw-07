@@ -5,14 +5,10 @@
  елемента (тегу <h2>) і кількість елементів у 
  категорії (усіх <li>, вкладених у нього). */
 
-const categories = document.querySelectorAll(".item");
-let total = 0;
-categories.forEach(() => {
-  return total++;
-});
-console.log(`Number of categories: ${total}`);
+const liItem = document.querySelectorAll(".item");
 
-const liItem = document.querySelectorAll("li.item");
+console.log(`Number of categories: ${liItem.length}`);
+
 liItem.forEach((el) => {
   const header = el.querySelector("h2");
   console.log(`Category: ${header.textContent}`);
