@@ -31,7 +31,7 @@ destroyBtn.addEventListener("click", () => {
 function createBoxes(amount) {
   const randomColor = getRandomHexColor();
   const result = [];
-  for (let i = 0; i <= amount; i++) {
+  for (let i = 0; i < amount; i++) {
     const randomColor = getRandomHexColor();
     const str = `<div style ="background-color:${randomColor};width:${
       30 + i * 10
